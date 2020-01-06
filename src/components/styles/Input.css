@@ -1,0 +1,7 @@
+.myInput{
+    border: 0px;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    width: calc(100% - 20px);
+    box-shadow: 0px 0px 2px black;
+}

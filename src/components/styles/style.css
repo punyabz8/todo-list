@@ -1,0 +1,48 @@
+@media only screen and (max-width: 360px){
+    body{
+        width: 100%;
+    }
+    #root{
+        margin: 0% 1%;
+        width: calc(100% - 2%);
+    }
+    header{
+        line-height: 30px;
+    }
+    .header-left{
+        margin: 0%;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .header-left h1{
+        text-shadow: 1px 1px red;
+    }
+    .header-menu{
+        width: 100%;
+        display: inline-block;
+    }
+    .header-menu ul{
+        line-height: 40px;
+    }
+    .header-menu ul li{
+        font-size: 15px;
+        padding: 0px 20px;
+    }
+    .header-menu ul li.active{
+        background-color: #5584bd;
+    }
+    .deleteBtn{
+        padding: 0px 5px;
+        padding-top: -4px;
+        margin-right: 0px;
+        padding-bottom: 4px;
+    }
+    .myInput , .list-container{
+        font-size: 12px;
+    }
+    .list-container div{
+        padding: 5px 7px;
+    }
+
+}

@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* .main-container{
+  background-color: #eee;
+} */
+
+.dataNotFound{
+  font-size: 25px;
+  text-align: center;
+  padding: 100px 0px;
+  text-shadow: 1px 1px red;
+  box-shadow: 0px 0px 2px black;
+}

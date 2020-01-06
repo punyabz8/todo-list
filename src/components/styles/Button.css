@@ -1,0 +1,11 @@
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10%;
+    font-weight: bold;
+    background-color: #bbb;
+}
+.btn.submit{
+    background-color: rgb(18, 68, 102);
+}

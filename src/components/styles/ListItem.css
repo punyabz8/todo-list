@@ -1,0 +1,33 @@
+.list-container{
+    padding: 10px 0px;
+}
+.list-container div:first-child{
+    border-top:  1px #444 solid;
+}
+.list-container div{
+    display: flex;
+    flex: 10;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    text-align: justify;
+    border: 1px ridge black;
+}
+.list-container div.taskCompleted .todo-content{
+    color: #888;
+    text-decoration: line-through;
+}
+.list-container input{
+    flex: 1;
+}
+.todo-content{
+    flex: 10;
+}
+.deleteBtn{
+    flex: 0.35;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: #e35b5b;
+}

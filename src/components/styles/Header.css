@@ -1,0 +1,35 @@
+
+header{
+    margin: 0;
+    line-height: 80px;
+    background-color: #659bdb;
+}
+
+.header-left{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.header-menu{
+    display: inline;
+}
+.header-menu ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+.header-menu ul li{
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding: 0px 25px;
+    text-align: center;
+    border-top: 5px solid #659bdb;
+}
+.header-menu ul li:hover{
+    cursor: pointer;
+    border-top: 5px solid #5584bd;
+    background-color: #5584bd;
+}
+.header-menu ul li.active{
+    border-top: 5px solid #bbdad1;
+}
