@@ -5,7 +5,7 @@ import uuid from 'uuid';
 class TodoItem extends React.Component{
     
     render(){
-        let { todo } = this.propsw
+        let { todo } = this.props
         return(
             
             <div key= {uuid.v4()} className = {todo.completed ? 'taskCompleted' : '' }>

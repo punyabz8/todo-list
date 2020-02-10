@@ -62,13 +62,17 @@ class App extends React.Component{
     const MOUSELEFT = 0;
     if(event.which === ENTER || event.button === MOUSELEFT){
       if(event.target.value !== ''){
+        let todoExist = this.state.list.every((todo)=>{
+          return todo.title.toLowerCase() !== (event.target.value.toLowerCase()).trim()
+        });
+      if(todoExist){
         const newTodo = {
           id: uuid.v4(),
           title: event.target.value.trim(),
           completed: false
         }
         this.setState({list : [...this.state.list, newTodo]});
-        // this.displayList= [...this.state.list, newTodo];
+        }
       }
     }
   }
