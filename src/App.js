@@ -17,7 +17,12 @@ class App extends React.Component{
         },
         {
           id: uuid.v4(),
-          title: 'Reading LN 10 chapters',
+          title: 'Reading Book 1 chapters',
+          completed: false
+        },
+        {
+          id: uuid.v4(),
+          title: 'Reading Novel 2 chapters',
           completed: false
         },
         {
